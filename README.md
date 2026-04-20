@@ -11,6 +11,7 @@ This folder contains practical Python code and notes to help you understand and 
 
 ### 3. Encapsulation
 - **Encapsulation:** Encapsulation means keeping the internal details of how an object works hidden from the outside world. You interact with the object using its public methods, without needing to know how everything is done inside. This helps protect the data and makes the code easier to use and maintain.
+Example: Public , Private and Protected
 
 ### 4. Data Extraction
 - **Data Extraction:** Data extraction is about getting information out of objects, usually through methods or properties. It allows you to access the data stored inside an object in a controlled way, ensuring that only the right information is shared and used.
@@ -35,6 +36,15 @@ This folder contains practical Python code and notes to help you understand and 
 
 ### 11. Async
 - **Async:** Async programming lets your code do other things while waiting for slow operations, like reading files or fetching data from the internet. This makes your programs more responsive and efficient, as they don't get stuck waiting for one thing to finish before starting another.
+
+### 12. Await
+- **Await:** The `await` keyword is used in async functions to pause execution until a coroutine completes. It allows you to write asynchronous code that looks synchronous, making it easier to read and understand. When you `await` something, you wait for that operation to finish before moving to the next line of code.
+
+### 13. Pytest
+- **Pytest:** Pytest is a popular testing framework for Python that makes it easy to write and run tests. It allows you to verify that your code works correctly by writing test functions that check expected behavior. Pytest automatically discovers tests, provides clear output, and supports advanced features like parameterized testing.
+
+### 14. API Basics
+- **API Basics:** APIs (Application Programming Interfaces) allow different software applications to communicate with each other. In Python, you can use libraries like `requests` to make HTTP requests to web APIs, send data, and receive responses. Understanding APIs is essential for integrating external services and building data-driven applications.
 
 ---
 Refer to the code in each chapter for practical examples and deeper understanding of these concepts.
