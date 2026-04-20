@@ -1,0 +1,62 @@
+{
+  "deviceId": "sensor‑001‑A9B7",
+  "gatewayId": "gw‑central‑12",
+  "timestamp": "2026-03-11T14:27:35.842Z",
+  "location": {
+    "latitude": 37.7749,
+    "longitude": -122.4194,
+    "elevationMeters": 15.2,
+    "city": "San Francisco",
+    "country": "USA"
+  },
+  "sensors": {
+    "temperature": {
+      "value": 22.4,
+      "unit": "°C",
+      "type": "thermistor",
+      "status": "OK"
+    },
+    "humidity": {
+      "value": 58.1,
+      "unit": "%",
+      "type": "capacitive",
+      "status": "OK"
+    },
+    "pressure": {
+      "value": 1013.8,
+      "unit": "hPa",
+      "type": "piezo‑resistive",
+      "status": "OK"
+    },
+    "co2": {
+      "value": 412,
+      "unit": "ppm",
+      "type": "NDIR",
+      "status": "OK"
+    },
+    "accelerometer": {
+      "x": 0.012,
+      "y": -0.004,
+      "z": 9.801,
+      "unit": "m/s²",
+      "status": "OK"
+    },
+    "battery": {
+      "voltage": 3.78,
+      "percent": 76,
+      "status": "charging"
+    }
+  },
+  "network": {
+    "rssi": -68,
+    "snr": 7.3,
+    "connection": "LTE‑M",
+    "ip": "10.45.12.87"
+  },
+  "event": {
+    "type": "periodic",
+    "sequence": 42,
+    "triggeredBy": "timer"
+  },
+  "alerts": []
+}

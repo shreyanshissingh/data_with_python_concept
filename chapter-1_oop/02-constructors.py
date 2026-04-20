@@ -1,7 +1,7 @@
 class MyConsClass:
     c_var = "Class Variable"
     def __init__(self,var1,var2):
-        self.var1 = var1
+        self.var1 = var1 #Instance Variables
         self.var2 = var2
         
     def func1(self):
